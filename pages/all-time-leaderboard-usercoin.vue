@@ -14,7 +14,7 @@ const openLinkInNewTab = (link) => {
 };
 </script>
 <template>
-  <title>MyGMDI - All-Time Leaderboard - User Coin</title>
+  <title>All-Time Leaderboard - User Coin</title>
 
   <div class="w-full h-full bg-background-950 px-2 xl:px-72 py-16">
     <div class="text-sm text-primary-600 breadcrumbs">
