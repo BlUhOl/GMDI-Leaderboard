@@ -131,7 +131,7 @@
         ></iframe>
         <NuxtLink
           class="btn"
-          href="https://www.facebook.com/groups/1662503687329843"
+          href="https://discord.gg/JaPQzFk"
           target="_blank"
           >Join</NuxtLink
         >
@@ -142,6 +142,14 @@
   <div
     class="w-full px-2 xl:px-72 py-16 flex flex-col justify-center items-center"
   >
-    <p>Want to Contribute this website? visit</p>
+    <p>
+      Want to Contribute this website? visit
+      <NuxtLink
+        class="underline decoration-dashed hover:decoration-solid"
+        href="https://github.com/BlUhOl/GMDI-Leaderboard"
+        target="_blank"
+        >Github repository</NuxtLink
+      >
+    </p>
   </div>
 </template>
