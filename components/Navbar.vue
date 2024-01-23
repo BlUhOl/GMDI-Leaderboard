@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full fixed z-50 bg-background-800 flex flex-row items-center justify-between py-1 px-2 lg:px-72 border-b-2 border-primary-700"
+    class="hidden md:flex w-full fixed z-50 bg-background-800 flex-row items-center justify-between py-1 px-2 lg:px-72 border-b-2 border-primary-700"
   >
     <NuxtLink
       tabindex="0"

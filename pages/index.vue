@@ -4,8 +4,8 @@
   <div
     class="flex flex-col justify-center items-center w-full h-screen bg-gradient-to-b from-background-950 to-background-800"
   >
-    <h1 class="text-9xl font-bold">GMDI</h1>
-    <h1 class="text-9xl font-semibold">Leaderboard</h1>
+    <h1 class="text-8xl md:text-9xl font-bold">GMDI</h1>
+    <h1 class="text-5xl md:text-9xl font-semibold">Leaderboard</h1>
 
     <div class="my-5 flex flex-col items-center justify-center">
       <h2 class="flex flex-row items-center gap-2 text-xl">
@@ -40,7 +40,7 @@
     <br />
     <h3 class="text-xl">All Time Leaderboard</h3>
     <ul
-      class="menu grid grid-cols-3 p-2 drop-shadow-xl bg-background-800 border-2 border-background-700 rounded-xl w-max"
+      class="menu grid grid-cols-2 md:grid-cols-3 p-2 drop-shadow-xl bg-background-800 border-2 border-background-700 rounded-xl w-max"
     >
       <li>
         <NuxtLink
@@ -123,7 +123,7 @@
         <h3 class="text-4xl text-blue-400 font-bold">Discord</h3>
         <iframe
           src="https://discord.com/widget?id=190826809896468480&theme=dark"
-          width="350"
+          width="300"
           height="500"
           allowtransparency="true"
           frameborder="0"

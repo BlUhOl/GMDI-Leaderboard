@@ -34,8 +34,8 @@ const openLinkInNewTab = (link) => {
     </div>
 
     <div class="overflow-x-auto">
-      <table class="table table-lg">
-        <thead class="text-xl bg-rose-900 text-white">
+      <table class="table table-xs md:table-lg">
+        <thead class="text-sm md:text-xl bg-rose-900 text-white">
           <tr>
             <th
               class="text-center w-min"
@@ -59,9 +59,9 @@ const openLinkInNewTab = (link) => {
             v-for="(col, index) in result"
             :key="col"
           >
-            <td class="w-[1vw]">{{ col[0] }}</td>
+            <td class="md:w-[1vw] w-max">{{ col[0] }}</td>
             <td
-              class="w-[10vw] text-lg text-center flex items-center justify-center gap-3"
+              class="md:w-[10vw] w-max text-sm md:text-lg text-center flex items-center justify-center gap-3"
             >
               <svg
                 v-if="index < 3"
@@ -75,7 +75,7 @@ const openLinkInNewTab = (link) => {
               </svg>
               {{ col[1] }}
             </td>
-            <td class="w-[50vw] text-lg text-center">
+            <td class="md:w-[50vw] w-full text-sm md:text-lg text-center">
               <span
                 @click="openLinkInNewTab(col[2])"
                 class="cursor-pointer hover:text-white hover:underline transition-all ease-in hover:after:content-['__🔗']"
@@ -83,9 +83,9 @@ const openLinkInNewTab = (link) => {
               </span>
             </td>
             <td
-              class="text-center w-full text-lg flex flex-row justify-center items-center gap-2"
+              class="text-center w-max md:w-full text-sm md:text-lg flex flex-row justify-center items-center gap-2"
             >
-              {{ col[3] }} <img class="size-6" src="../assets/img/star.png" />
+              {{ col[3] }} <img class="size-4 md:size-6" src="../assets/img/star.png" />
             </td>
           </tr>
         </tbody>
