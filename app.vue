@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <Navbar/>
+  <NuxtLayout>
+    <NuxtLoadingIndicator />
+    <gdbg />
+    <Navbar />
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
 
 

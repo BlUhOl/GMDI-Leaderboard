@@ -2,7 +2,7 @@
 <template>
   <title>GMDI Leaderboard</title>
   <div
-    class="flex flex-col justify-center items-center w-full h-screen bg-gradient-to-b from-background-950 to-background-800"
+    class="flex flex-col justify-center items-center w-full h-screen bg-blend-color bg-gradient-to-b from-background-950/70 to-background-800/50"
   >
     <h1 class="text-8xl md:text-9xl font-bold">GMDI</h1>
     <h1 class="text-5xl md:text-9xl font-semibold">Leaderboard</h1>
@@ -44,7 +44,7 @@
     >
       <li>
         <NuxtLink
-          href="/all-time-leaderboard-star"
+          href="/all-time/all-time-leaderboard-star"
           class="flex flex-row items-center gap-1 text-base"
           >Star
           <img class="size-5" src="../assets/img/star.png" />
@@ -53,7 +53,7 @@
 
       <li>
         <NuxtLink
-          href="/all-time-leaderboard-moon"
+          href="/all-time/all-time-leaderboard-moon"
           class="flex flex-row items-center gap-1 text-base"
           >Moon
           <img class="size-5" src="../assets/img/moon.png" />
@@ -62,7 +62,7 @@
 
       <li>
         <NuxtLink
-          href="/all-time-leaderboard-diamond"
+          href="/all-time/all-time-leaderboard-diamond"
           class="flex flex-row items-center gap-1 text-base"
           >Diamond
           <img class="size-5" src="../assets/img/diamond.png" />
@@ -71,7 +71,7 @@
 
       <li>
         <NuxtLink
-          href="/all-time-leaderboard-usercoin"
+          href="/all-time/all-time-leaderboard-usercoin"
           class="flex flex-row items-center gap-1 text-base"
           >User Coin
           <img class="size-5" src="../assets/img/silvercoin.png" />
@@ -80,7 +80,7 @@
 
       <li>
         <NuxtLink
-          href="/all-time-leaderboard-demon"
+          href="/all-time/all-time-leaderboard-demon"
           class="flex flex-row items-center gap-1 text-base"
           >Demon
           <img class="size-5" src="../assets/img/demon.png" />
@@ -89,7 +89,7 @@
 
       <li>
         <NuxtLink
-          href="/all-time-leaderboard-creatorpoint"
+          href="/all-time/all-time-leaderboard-creatorpoint"
           class="flex flex-row items-center gap-1 text-base"
           >Creator Point
           <img class="size-5" src="../assets/img/cp.png" />
@@ -99,7 +99,34 @@
   </div>
 
   <div
-    class="w-full h-full px-2 xl:px-72 py-16 bg-gradient-to-b from-background-800 to-background-700"
+    class="bg-primary-500/80 w-full py-8 px-2 xl:px-72 text-lg text-primary-100"
+  >
+    <p>
+      Situs web ini mengambil data dari google sheet menggunakan google api dan
+      menampilkannya. Saya (BlUhOl) tidak memiliki akses ke data tersebut.
+    </p>
+    <br />
+    <p>
+      Jika Anda ingin meminta/menambahkan nama Anda ke leaderboard silakan baca
+      informasi di
+      <NuxtLink
+        class="font-medium underline decoration-dashed hover:decoration-solid"
+        href="https://docs.google.com/spreadsheets/d/1OiSgtZ_P0fojAVyZErE9na5f6Z5eR-Hu6ICv4-6k85o"
+        target="_blank"
+        >google sheets</NuxtLink
+      >
+      atau bergabung dengan server
+      <NuxtLink
+        class="font-medium underline decoration-dashed hover:decoration-solid"
+        href="/#discord"
+        >Discord GMDI</NuxtLink
+      >
+      atau bertanya langsung ke Abdi menggunakan email
+    </p>
+  </div>
+
+  <div
+    class="w-full h-full px-2 xl:px-72 py-16 bg-gradient-to-b from-background-800/80 to-background-700/80"
   >
     <h2 class="text-6xl font-bold text-center w-full mb-12">
       Join Our Community
@@ -119,7 +146,7 @@
           >Join</NuxtLink
         >
       </div>
-      <div>
+      <div id="discord">
         <h3 class="text-4xl text-blue-400 font-bold">Discord</h3>
         <iframe
           src="https://discord.com/widget?id=190826809896468480&theme=dark"
@@ -128,11 +155,9 @@
           allowtransparency="true"
           frameborder="0"
           sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+          class="my-4 rounded-lg border-2 border-background-700 shadow-xl"
         ></iframe>
-        <NuxtLink
-          class="btn"
-          href="https://discord.gg/JaPQzFk"
-          target="_blank"
+        <NuxtLink class="btn" href="https://discord.gg/JaPQzFk" target="_blank"
           >Join</NuxtLink
         >
       </div>
@@ -140,7 +165,7 @@
   </div>
 
   <div
-    class="w-full px-2 xl:px-72 py-16 flex flex-col justify-center items-center"
+    class="w-full px-2 xl:px-72 py-10 flex flex-col justify-center items-center bg-black/50 backdrop-blur-md"
   >
     <p>
       Want to Contribute this website? visit

@@ -4,6 +4,7 @@ let ALL_DIAMOND_range = "PPSW - Diamond!A5:D56";
 let ALL_UC_range = "PPSW - User Coin!A5:D56";
 let ALL_DEMON_range = "PPSW - Demon!A5:D56";
 let ALL_CP_range = "PPSW - CP!A5:D56";
+let ALL_version_date = "Beranda!B5"
 
 
 const getVars = () => {
@@ -41,6 +42,11 @@ export async function ALL_DEMON() {
 export async function ALL_CP() {
     const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${ALL_CP_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+export async function ALLTIME_VERSION() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${ALL_version_date}?key=${GOOGLE_API_KEY}`
     return await useFetch(url)
 }
 
