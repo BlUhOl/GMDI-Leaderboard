@@ -9,7 +9,6 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'GMDI Leaderboard',
   ogTitle: 'GMDI Leaderboard',
   description: 'Indonesian Geometry Dash player Leaderboard',
   ogDescription: 'Indonesian Geometry Dash player Leaderboard',

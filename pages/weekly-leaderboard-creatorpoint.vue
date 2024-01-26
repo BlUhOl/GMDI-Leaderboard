@@ -182,7 +182,7 @@ const calculateWidth = (value) => {
               :style="{ width: calculateWidth(col[2]) }"
               class="odd:bg-primary-600 text-xs text-green-200 bg-primary-700 text-right px-2 mb-1 hover:bg-primary-200 hover:text-primary-950 select-none rounded-md"
             >
-              + {{ col[2] }}
+              +{{ col[2] }}
             </h6>
           </div>
 

@@ -1,10 +1,10 @@
 <script setup>
 import { ref } from "vue";
-import { WEEKLY_DEMON, WEEKLY_VERSION } from "@/composables/useSheet";
+import { YEARLY_DEMON, YEARLY_VERSION } from "@/composables/useSheet";
 
 const result = ref([]);
-const { data } = await WEEKLY_DEMON();
-const version = await WEEKLY_VERSION();
+const { data } = await YEARLY_DEMON();
+const version = await YEARLY_VERSION();
 const versiondate = version.data.value.values[0][0];
 
 result.value = [...data.value.values];
@@ -24,7 +24,7 @@ const calculateWidth = (value) => {
 </script>
 
 <template>
-  <title>Weekly Leaderboard - Demon</title>
+  <title>Yearly Leaderboard - Demon</title>
 
   <div
     class="w-full h-full bg-gradient-to-b from-background-900 to-background-950/50 px-2 lg:px-52 xl:px-72 py-16 bg-blend-color"
@@ -32,13 +32,13 @@ const calculateWidth = (value) => {
     <div class="text-sm text-primary-600 breadcrumbs">
       <ul>
         <li><NuxtLink href="/">Home</NuxtLink></li>
-        <li class="cursor-default">Weekly Leaderboard - Demon</li>
+        <li class="cursor-default">Yearly Leaderboard - Demon</li>
       </ul>
     </div>
 
     <div class="my-2 mb-5">
       <h2 class="text-4xl text-primary-500 underline font-semibold">
-        Weekly Leaderboard
+        Yearly Leaderboard
       </h2>
       <h2
         class="text-5xl text-primary-400 font-bold flex flex-wrap items-center gap-3"
@@ -47,7 +47,7 @@ const calculateWidth = (value) => {
         <img class="size-10" src="../assets/img/demon.png" />
       </h2>
       <p class="text-primary-100 text-xl my-2">
-        Top players with the most Demons weekly
+        Top 25 players with the most Demons Yearly
       </p>
       <br />
       <span class="text-primary-400"
@@ -89,7 +89,7 @@ const calculateWidth = (value) => {
               :style="{ width: calculateWidth(col[2]) }"
               class="odd:bg-primary-600 text-xs text-green-200 bg-primary-700 text-right px-2 mb-1 hover:bg-primary-200 hover:text-primary-950 select-none rounded-md"
             >
-              +{{col[2]}}
+              +{{ col[2] }}
             </h6>
           </div>
 
@@ -182,7 +182,7 @@ const calculateWidth = (value) => {
               :style="{ width: calculateWidth(col[2]) }"
               class="odd:bg-primary-600 text-xs text-green-200 bg-primary-700 text-right px-2 mb-1 hover:bg-primary-200 hover:text-primary-950 select-none rounded-md"
             >
-            +{{ col[2] }}
+              +{{ col[2] }}
             </h6>
           </div>
 

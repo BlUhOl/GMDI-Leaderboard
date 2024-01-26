@@ -14,6 +14,22 @@ let WEEKLY_DEMON_range = "PPM - Demon!B5:D56";
 let WEEKLY_CP_range = "PPM - CP!B5:D56";
 let WEEKLY_version_date = "Beranda!B14"
 
+let MONTHLY_STAR_range = "PPB - Star!B5:D56";
+let MONTHLY_MOON_range = "PPB - Moon!B5:D56";
+let MONTHLY_DIAMOND_range = "PPB - Diamond!B5:D56";
+let MONTHLY_UC_range = "PPB - User Coin!B5:D56";
+let MONTHLY_DEMON_range = "PPB - Demon!B5:D56";
+let MONTHLY_CP_range = "PPB - CP!B5:D56";
+let MONTHLY_version_date = "Beranda!B23"
+
+let YEARLY_STAR_range = "PPT - Star!B5:D56";
+let YEARLY_MOON_range = "PPT - Moon!B5:D56";
+let YEARLY_DIAMOND_range = "PPT - Diamond!B5:D56";
+let YEARLY_UC_range = "PPT - User Coin!B5:D56";
+let YEARLY_DEMON_range = "PPT - Demon!B5:D56";
+let YEARLY_CP_range = "PPT - CP!B5:D56";
+let YEARLY_version_date = "Beranda!B32"
+
 
 const getVars = () => {
     const SPREAD_SHEET_ID = useRuntimeConfig().public.SPREAD_SHEET_ID;
@@ -101,6 +117,93 @@ export async function WEEKLY_VERSION() {
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${WEEKLY_version_date}?key=${GOOGLE_API_KEY}`
     return await useFetch(url)
 }
+
+/////////////////////////////////////
+export async function MONTHLY_STAR() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${MONTHLY_STAR_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function MONTHLY_MOON() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${MONTHLY_MOON_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function MONTHLY_DIAMOND() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${MONTHLY_DIAMOND_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function MONTHLY_UC() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${MONTHLY_UC_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function MONTHLY_DEMON() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${MONTHLY_DEMON_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function MONTHLY_CP() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${MONTHLY_CP_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function MONTHLY_VERSION() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${MONTHLY_version_date}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+/////////////////////////////////////
+export async function YEARLY_STAR() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${YEARLY_STAR_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function YEARLY_MOON() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${YEARLY_MOON_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function YEARLY_DIAMOND() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${YEARLY_DIAMOND_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function YEARLY_UC() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${YEARLY_UC_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function YEARLY_DEMON() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${YEARLY_DEMON_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function YEARLY_CP() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${YEARLY_CP_range}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
+export async function YEARLY_VERSION() {
+    const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${YEARLY_version_date}?key=${GOOGLE_API_KEY}`
+    return await useFetch(url)
+}
+
 
 
 // export async function singleRow(row) {

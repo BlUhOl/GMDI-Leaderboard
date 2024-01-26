@@ -2,7 +2,7 @@
 <template>
   <title>GMDI Leaderboard</title>
   <div
-    class="flex flex-col justify-center items-center w-full h-screen bg-blend-color bg-gradient-to-b from-background-950/70 to-background-800/50"
+    class="flex flex-col justify-center items-center w-full py-48 2xl:py-0 2xl:h-screen bg-blend-color bg-gradient-to-b from-background-950/70 to-background-800/50"
   >
     <h1
       class="text-8xl md:text-9xl font-bold bg-gradient-to-br from-primary-600 to-primary-400 bg-clip-text text-white/0"
@@ -47,69 +47,69 @@
     </div>
 
     <div
-        class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 md:gap-2 drop-shadow-xl bg-background-800 border-2 border-background-700 rounded-xl w-max"
+      class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 md:gap-2 drop-shadow-xl bg-background-800 border-2 border-background-700 rounded-xl w-max"
+    >
+      <h3
+        class="text-xl col-span-2 lg:col-span-3 font-bold text-white w-full text-center shadow-lg p-1 bg-background-700 rounded-lg"
       >
-        <h3
-          class="text-xl col-span-2 lg:col-span-3 font-bold text-white w-full text-center shadow-lg p-1 bg-background-700 rounded-lg"
-        >
-          All-time Leaderboard
-        </h3>
-        <div class="btn-ghost btn">
-          <NuxtLink
-            href="/all-time-leaderboard-star"
-            class="flex flex-row items-center w-max gap-1 text-base"
-            >Star
-            <img class="size-5" src="../assets/img/star.png" />
-          </NuxtLink>
-        </div>
-
-        <div class="btn-ghost btn">
-          <NuxtLink
-            href="/all-time-leaderboard-moon"
-            class="flex flex-row items-center w-max gap-1 text-base"
-            >Moon
-            <img class="size-5" src="../assets/img/moon.png" />
-          </NuxtLink>
-        </div>
-
-        <div class="btn-ghost btn">
-          <NuxtLink
-            href="/all-time-leaderboard-diamond"
-            class="flex flex-row items-center w-max gap-1 text-base"
-            >Diamond
-            <img class="size-5" src="../assets/img/diamond.png" />
-          </NuxtLink>
-        </div>
-
-        <div class="btn-ghost btn">
-          <NuxtLink
-            href="/all-time-leaderboard-usercoin"
-            class="flex flex-row items-center w-max gap-1 text-base"
-            >User Coin
-            <img class="size-5" src="../assets/img/silvercoin.png" />
-          </NuxtLink>
-        </div>
-
-        <div class="btn-ghost btn">
-          <NuxtLink
-            href="/all-time-leaderboard-demon"
-            class="flex flex-row items-center w-max gap-1 text-base"
-            >Demon
-            <img class="size-5" src="../assets/img/demon.png" />
-          </NuxtLink>
-        </div>
-
-        <div class="btn-ghost btn">
-          <NuxtLink
-            href="/all-time-leaderboard-creatorpoint"
-            class="flex flex-row items-center w-max gap-1 text-base"
-            >Creator Point
-            <img class="size-5" src="../assets/img/cp.png" />
-          </NuxtLink>
-        </div>
+        All-time Leaderboard
+      </h3>
+      <div class="btn-ghost btn">
+        <NuxtLink
+          href="/all-time-leaderboard-star"
+          class="flex flex-row items-center w-max gap-1 text-base"
+          >Star
+          <img class="size-5" src="../assets/img/star.png" />
+        </NuxtLink>
       </div>
 
-    <div class="flex flex-wrap gap-2 my-2">
+      <div class="btn-ghost btn">
+        <NuxtLink
+          href="/all-time-leaderboard-moon"
+          class="flex flex-row items-center w-max gap-1 text-base"
+          >Moon
+          <img class="size-5" src="../assets/img/moon.png" />
+        </NuxtLink>
+      </div>
+
+      <div class="btn-ghost btn">
+        <NuxtLink
+          href="/all-time-leaderboard-diamond"
+          class="flex flex-row items-center w-max gap-1 text-base"
+          >Diamond
+          <img class="size-5" src="../assets/img/diamond.png" />
+        </NuxtLink>
+      </div>
+
+      <div class="btn-ghost btn">
+        <NuxtLink
+          href="/all-time-leaderboard-usercoin"
+          class="flex flex-row items-center w-max gap-1 text-base"
+          >User Coin
+          <img class="size-5" src="../assets/img/silvercoin.png" />
+        </NuxtLink>
+      </div>
+
+      <div class="btn-ghost btn">
+        <NuxtLink
+          href="/all-time-leaderboard-demon"
+          class="flex flex-row items-center w-max gap-1 text-base"
+          >Demon
+          <img class="size-5" src="../assets/img/demon.png" />
+        </NuxtLink>
+      </div>
+
+      <div class="btn-ghost btn">
+        <NuxtLink
+          href="/all-time-leaderboard-creatorpoint"
+          class="flex flex-row items-center w-max gap-1 text-base"
+          >Creator Point
+          <img class="size-5" src="../assets/img/cp.png" />
+        </NuxtLink>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-2 my-2">
       <div
         class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 md:gap-2 drop-shadow-xl bg-background-800 border-2 border-background-700 rounded-xl w-max"
       >
@@ -172,6 +172,133 @@
           </NuxtLink>
         </div>
       </div>
+
+      <div
+        class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 md:gap-2 drop-shadow-xl bg-background-800 border-2 border-background-700 rounded-xl w-max"
+      >
+        <h3
+          class="text-xl col-span-2 lg:col-span-3 font-bold text-white w-full text-center shadow-lg p-1 bg-background-700 rounded-lg"
+        >
+          Monthly Leaderboard
+        </h3>
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/monthly-leaderboard-star"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Star
+            <img class="size-5" src="../assets/img/star.png" />
+          </NuxtLink>
+        </div>
+
+        <!-- <div class="btn-ghost btn">
+          <NuxtLink
+            href="/monthly-leaderboard-moon"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Moon
+            <img class="size-5" src="../assets/img/moon.png" />
+          </NuxtLink>
+        </div> -->
+
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/monthly-leaderboard-diamond"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Diamond
+            <img class="size-5" src="../assets/img/diamond.png" />
+          </NuxtLink>
+        </div>
+
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/monthly-leaderboard-usercoin"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >User Coin
+            <img class="size-5" src="../assets/img/silvercoin.png" />
+          </NuxtLink>
+        </div>
+
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/monthly-leaderboard-demon"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Demon
+            <img class="size-5" src="../assets/img/demon.png" />
+          </NuxtLink>
+        </div>
+
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/monthly-leaderboard-creatorpoint"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Creator Point
+            <img class="size-5" src="../assets/img/cp.png" />
+          </NuxtLink>
+        </div>
+      </div>
+
+      <div
+        class="menu grid grid-cols-2 xl:grid-cols-3 justify-center md:p-2 md:gap-2 drop-shadow-xl bg-background-800 border-2 border-background-700 rounded-xl w-max"
+      >
+        <h3
+          class="text-xl col-span-2 lg:col-span-3 font-bold text-white w-full text-center shadow-lg p-1 bg-background-700 rounded-lg"
+        >
+          Yearly Leaderboard
+        </h3>
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/yearly-leaderboard-star"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Star
+            <img class="size-5" src="../assets/img/star.png" />
+          </NuxtLink>
+        </div>
+
+        <!-- <div class="btn-ghost btn">
+          <NuxtLink
+            href="/yearly-leaderboard-moon"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Moon
+            <img class="size-5" src="../assets/img/moon.png" />
+          </NuxtLink>
+        </div> -->
+
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/yearly-leaderboard-diamond"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Diamond
+            <img class="size-5" src="../assets/img/diamond.png" />
+          </NuxtLink>
+        </div>
+
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/yearly-leaderboard-usercoin"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >User Coin
+            <img class="size-5" src="../assets/img/silvercoin.png" />
+          </NuxtLink>
+        </div>
+
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/yearly-leaderboard-demon"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Demon
+            <img class="size-5" src="../assets/img/demon.png" />
+          </NuxtLink>
+        </div>
+
+        <div class="btn-ghost btn">
+          <NuxtLink
+            href="/yearly-leaderboard-creatorpoint"
+            class="flex flex-row items-center w-max gap-1 text-base"
+            >Creator Point
+            <img class="size-5" src="../assets/img/cp.png" />
+          </NuxtLink>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -225,19 +352,8 @@
       </div>
       <div id="discord">
         <h3 class="text-4xl text-blue-400 font-bold">Discord</h3>
-        <iframe
-          src="https://discord.com/widget?id=190826809896468480&theme=dark"
-          width="300"
-          height="500"
-          allowtransparency="true"
-          frameborder="0"
-          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-          class="my-4 rounded-lg border-2 border-background-700 shadow-xl"
-        ></iframe>
-        
-        <NuxtLink class="btn" href="https://discord.gg/JaPQzFk" target="_blank"
-          >Join</NuxtLink
-        >
+
+        <discordembed />
       </div>
     </div>
   </div>
