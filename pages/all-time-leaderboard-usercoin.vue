@@ -1,9 +1,9 @@
 <script setup>
 import { ref } from "vue";
-import { ALL_MOON, ALLTIME_VERSION } from "@/composables/useSheet";
+import { ALL_UC, ALLTIME_VERSION } from "@/composables/useSheet";
 
 const result = ref([]);
-const { data } = await ALL_MOON();
+const { data } = await ALL_UC();
 const version = await ALLTIME_VERSION();
 const versiondate = version.data.value.values[0][0];
 
@@ -16,13 +16,13 @@ const openLinkInNewTab = (link) => {
 
 </script>
 <template>
-  <title>All-Time Leaderboard - Moon</title>
+  <title>All-Time Leaderboard - User Coin</title>
 
   <div class="w-full h-full bg-gradient-to-b from-background-900 to-background-950/50 px-2 lg:px-52 xl:px-72 py-16 bg-blend-color">
     <div class="text-sm text-primary-600 breadcrumbs">
       <ul>
         <li><NuxtLink href="/">Home</NuxtLink></li>
-        <li class="cursor-default">All-Time Leaderboard - Moon </li>
+        <li class="cursor-default">All-Time Leaderboard - User Coin </li>
       </ul>
     </div>
 
@@ -31,11 +31,11 @@ const openLinkInNewTab = (link) => {
         All-Time Leaderboard
       </h2>
       <h2 class="text-5xl text-primary-400 font-bold flex flex-wrap items-center gap-3">
-        Moon
-        <img class="size-10" src="../../assets/img/moon.png" />
+        User Coin
+        <img class="size-10" src="../assets/img/silvercoin.png" />
       </h2>
       <p class="text-primary-100 text-xl my-2">
-        Top 25 players with the most Moons all time
+        Top 25 players with the most User Coins all time
       </p>
       <br/>
       <span class="text-primary-400">*Klik nama player untuk menuju gdbrowser profile player tersebut</span>
@@ -48,7 +48,7 @@ const openLinkInNewTab = (link) => {
           <tr>
             <th class="w-min">Peringkat</th>
             <th class="text-center w-min">Player</th>
-            <th class="text-center w-min">Banyak Moon</th>
+            <th class="text-center w-min">Banyak User Coin</th>
           </tr>
         </thead>
         <tbody class="">
@@ -167,7 +167,7 @@ const openLinkInNewTab = (link) => {
               class="text-center w-full text-sm md:text-lg flex flex-row justify-center items-center gap-2"
             >
               {{ col[3] }}
-              <img class="size-4 md:size-6" src="../../assets/img/moon.png" />
+              <img class="size-4 md:size-6" src="../assets/img/silvercoin.png" />
             </td>
           </tr>
         </tbody>

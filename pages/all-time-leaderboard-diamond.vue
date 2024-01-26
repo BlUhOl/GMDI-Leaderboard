@@ -1,9 +1,9 @@
 <script setup>
 import { ref } from "vue";
-import { ALL_DEMON, ALLTIME_VERSION } from "@/composables/useSheet";
+import { ALL_DIAMOND, ALLTIME_VERSION } from "@/composables/useSheet";
 
 const result = ref([]);
-const { data } = await ALL_DEMON();
+const { data } = await ALL_DIAMOND();
 const version = await ALLTIME_VERSION();
 const versiondate = version.data.value.values[0][0];
 
@@ -16,13 +16,13 @@ const openLinkInNewTab = (link) => {
 
 </script>
 <template>
-  <title>All-Time Leaderboard - Demon</title>
+  <title>All-Time Leaderboard - Diamond</title>
 
   <div class="w-full h-full bg-gradient-to-b from-background-900 to-background-950/50 px-2 lg:px-52 xl:px-72 py-16 bg-blend-color">
     <div class="text-sm text-primary-600 breadcrumbs">
       <ul>
         <li><NuxtLink href="/">Home</NuxtLink></li>
-        <li class="cursor-default">All-Time Leaderboard - Demon </li>
+        <li class="cursor-default">All-Time Leaderboard - Diamond </li>
       </ul>
     </div>
 
@@ -31,11 +31,11 @@ const openLinkInNewTab = (link) => {
         All-Time Leaderboard
       </h2>
       <h2 class="text-5xl text-primary-400 font-bold flex flex-wrap items-center gap-3">
-        Demon
-        <img class="size-10" src="../../assets/img/demon.png" />
+        Diamond
+        <img class="size-10" src="../assets/img/diamond.png" />
       </h2>
       <p class="text-primary-100 text-xl my-2">
-        Top 25 players with the most Demons all time
+        Top 25 players with the most Diamonds all time
       </p>
       <br/>
       <span class="text-primary-400">*Klik nama player untuk menuju gdbrowser profile player tersebut</span>
@@ -48,7 +48,7 @@ const openLinkInNewTab = (link) => {
           <tr>
             <th class="w-min">Peringkat</th>
             <th class="text-center w-min">Player</th>
-            <th class="text-center w-min">Banyak Demon</th>
+            <th class="text-center w-min">Banyak Diamond</th>
           </tr>
         </thead>
         <tbody class="">
@@ -167,7 +167,7 @@ const openLinkInNewTab = (link) => {
               class="text-center w-full text-sm md:text-lg flex flex-row justify-center items-center gap-2"
             >
               {{ col[3] }}
-              <img class="size-4 md:size-6" src="../../assets/img/demon.png" />
+              <img class="size-4 md:size-6" src="../assets/img/diamond.png" />
             </td>
           </tr>
         </tbody>
