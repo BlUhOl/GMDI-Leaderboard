@@ -57,42 +57,42 @@
 
         <NuxtLink
           href="/all-time-leaderboard-star"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Star
           <img class="size-5" src="../assets/img/star.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/all-time-leaderboard-moon"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Moon
           <img class="size-5" src="../assets/img/moon.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/all-time-leaderboard-diamond"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Diamond
           <img class="size-5" src="../assets/img/diamond.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/all-time-leaderboard-usercoin"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >User Coin
           <img class="size-5" src="../assets/img/silvercoin.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/all-time-leaderboard-demon"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Demon
           <img class="size-5" src="../assets/img/demon.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/all-time-leaderboard-creatorpoint"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Creator Point
           <img class="size-5" src="../assets/img/cp.png" />
         </NuxtLink>
@@ -110,42 +110,42 @@
         </h3>
         <NuxtLink
           href="/weekly-leaderboard-star"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Star
           <img class="size-5" src="../assets/img/star.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/weekly-leaderboard-moon"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Moon
           <img class="size-5" src="../assets/img/moon.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/weekly-leaderboard-diamond"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Diamond
           <img class="size-5" src="../assets/img/diamond.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/weekly-leaderboard-usercoin"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >User Coin
           <img class="size-5" src="../assets/img/silvercoin.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/weekly-leaderboard-demon"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Demon
           <img class="size-5" src="../assets/img/demon.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/weekly-leaderboard-creatorpoint"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Creator Point
           <img class="size-5" src="../assets/img/cp.png" />
         </NuxtLink>
@@ -161,42 +161,42 @@
         </h3>
         <NuxtLink
           href="/monthly-leaderboard-star"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Star
           <img class="size-5" src="../assets/img/star.png" />
         </NuxtLink>
 
         <!-- <NuxtLink
           href="/monthly-leaderboard-moon"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Moon
           <img class="size-5" src="../assets/img/moon.png" />
         </NuxtLink> -->
 
         <NuxtLink
           href="/monthly-leaderboard-diamond"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Diamond
           <img class="size-5" src="../assets/img/diamond.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/monthly-leaderboard-usercoin"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >User Coin
           <img class="size-5" src="../assets/img/silvercoin.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/monthly-leaderboard-demon"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Demon
           <img class="size-5" src="../assets/img/demon.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/monthly-leaderboard-creatorpoint"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Creator Point
           <img class="size-5" src="../assets/img/cp.png" />
         </NuxtLink>
@@ -212,42 +212,42 @@
         </h3>
         <NuxtLink
           href="/yearly-leaderboard-star"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Star
           <img class="size-5" src="../assets/img/star.png" />
         </NuxtLink>
 
         <!-- <NuxtLink
           href="/yearly-leaderboard-moon"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Moon
           <img class="size-5" src="../assets/img/moon.png" />
         </NuxtLink> -->
 
         <NuxtLink
           href="/yearly-leaderboard-diamond"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Diamond
           <img class="size-5" src="../assets/img/diamond.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/yearly-leaderboard-usercoin"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >User Coin
           <img class="size-5" src="../assets/img/silvercoin.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/yearly-leaderboard-demon"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Demon
           <img class="size-5" src="../assets/img/demon.png" />
         </NuxtLink>
 
         <NuxtLink
           href="/yearly-leaderboard-creatorpoint"
-          class="flex flex-row items-center btn-ghost btn w-full gap-1 text-base"
+          class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Creator Point
           <img class="size-5" src="../assets/img/cp.png" />
         </NuxtLink>
