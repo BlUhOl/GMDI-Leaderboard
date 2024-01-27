@@ -103,7 +103,7 @@ const calculateWidth = (value) => {
           <tr>
             <th class="w-min">Peringkat</th>
             <th class="text-center w-min">Player</th>
-            <th class="text-center w-min">Banyak Demon</th>
+            <th class="text-center w-min">Jumlah Demon</th>
           </tr>
         </thead>
         <tbody class="">

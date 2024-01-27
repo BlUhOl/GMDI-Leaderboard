@@ -5,7 +5,7 @@
     <NuxtLink
       tabindex="0"
       href="/"
-      class="text-2xl text-white font-medium hover:font-bold hover:text-primary-400 transition-all ease-in duration-75"
+      class="text-2xl py-1 md:py-0 text-white font-medium hover:font-bold hover:text-primary-400 transition-all ease-in duration-75"
       >GMDI Leaderboard</NuxtLink
     >
 

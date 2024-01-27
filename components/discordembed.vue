@@ -10,7 +10,7 @@
         <div class="flex flex-row items-center gap-5">
           <img class="size-12 rounded-full" src="../assets/img/gmdidcpfp.png" />
           <div>
-            <h3 class="text-white text-xl flex flex-row items-center gap-2 fill-white">
+            <h3 class="text-white text-xl flex flex-row md:items-center gap-2 fill-white">
               <svg
                 class="size-6"
                 xmlns="http://www.w3.org/2000/svg"

@@ -48,7 +48,7 @@ const openLinkInNewTab = (link) => {
           <tr>
             <th class="w-min">Peringkat</th>
             <th class="text-center w-min">Player</th>
-            <th class="text-center w-min">Banyak Creator Point</th>
+            <th class="text-center w-min">Jumlah Creator Point</th>
           </tr>
         </thead>
         <tbody class="">
