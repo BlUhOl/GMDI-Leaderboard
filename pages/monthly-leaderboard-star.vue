@@ -74,7 +74,7 @@ const calculateWidth = (value) => {
         <div class="flex flex-row collapse-content p-2 gap-2">
           <div class="w-max border-r-2 pr-3 border-primary-500/50">
             <h6
-              class="text-right text-xs text-white mb-1"
+              class="text-right text-xs truncate line-clamp-1 text-white mb-1"
               v-for="(col, index) in result"
               :key="col"
             >
@@ -167,7 +167,7 @@ const calculateWidth = (value) => {
         <div class="flex flex-row collapse-content p-2 gap-2">
           <div class="w-max border-r-2 pr-3 border-primary-500/50">
             <h6
-              class="text-right text-xs text-white mb-1"
+              class="text-right text-xs text-white truncate line-clamp-1 mb-1"
               v-for="(col, index) in result"
               :key="col"
             >

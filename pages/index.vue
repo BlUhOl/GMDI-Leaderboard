@@ -47,7 +47,7 @@
     </div>
 
     <div
-      class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 md:gap-2 drop-shadow-xl bg-background-800/50 backdrop-blur-sm border-2 border-background-700 rounded-xl w-max"
+      class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 gap-2 drop-shadow-xl bg-background-800/50 border-2 border-background-700 rounded-xl w-max"
     >
       <h3
         class="text-xl col-span-2 mb-1 lg:col-span-3 font-bold text-white w-full text-center shadow-lg p-1 bg-amber-700 rounded-lg"
@@ -101,7 +101,7 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-2 my-2">
       <div
-        class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 md:gap-2 drop-shadow-xl bg-background-800/50 backdrop-blur-sm border-2 border-background-700 rounded-xl w-max"
+        class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 gap-2 drop-shadow-xl bg-background-800/50 border-2 border-background-700 rounded-xl w-max"
       >
         <h3
           class="text-xl col-span-2 lg:col-span-3 font-bold text-white w-full text-center shadow-lg p-1 bg-green-700 rounded-lg"
@@ -152,7 +152,7 @@
       </div>
 
       <div
-        class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 md:gap-2 drop-shadow-xl bg-background-800/50 backdrop-blur-sm border-2 border-background-700 rounded-xl w-max"
+        class="menu grid grid-cols-2 lg:grid-cols-3 justify-center md:p-2 gap-2 drop-shadow-xl bg-background-800/50 border-2 border-background-700 rounded-xl w-max"
       >
         <h3
           class="text-xl col-span-2 lg:col-span-3 font-bold text-white w-full text-center shadow-lg p-1 bg-blue-700 rounded-lg"
@@ -203,7 +203,7 @@
       </div>
 
       <div
-        class="menu grid grid-cols-2 xl:grid-cols-3 justify-center md:p-2 md:gap-2 drop-shadow-xl bg-background-800/50 backdrop-blur-sm border-2 border-background-700 rounded-xl w-max"
+        class="menu grid grid-cols-2 xl:grid-cols-3 justify-center md:p-2 gap-2 drop-shadow-xl bg-background-800/50 border-2 border-background-700 rounded-xl w-max"
       >
         <h3
           class="text-xl col-span-2 lg:col-span-3 font-bold text-white w-full text-center shadow-lg p-1 bg-pink-700 rounded-lg"
@@ -313,7 +313,7 @@
   </div>
 
   <div
-    class="w-full px-2 xl:px-72 py-10 flex flex-col justify-center items-center bg-black/50 backdrop-blur-md"
+    class="w-full px-2 xl:px-72 py-10 flex flex-col justify-center items-center bg-black/50"
   >
     <p>
       Want to Contribute this website? visit
