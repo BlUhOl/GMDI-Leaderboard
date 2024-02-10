@@ -191,12 +191,12 @@
             </NuxtLink>
           </li>
 
-          <!-- <li>
+          <li>
             <NuxtLink href="/monthly-leaderboard-moon" class="flex flex-row items-center gap-1 text-base"
               >Moon
               <img class="size-5" src="../assets/img/moon.png" />
             </NuxtLink>
-          </li> -->
+          </li>
 
           <li>
             <NuxtLink

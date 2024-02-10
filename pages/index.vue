@@ -166,12 +166,12 @@
           <img class="size-5" src="../assets/img/star.png" />
         </NuxtLink>
 
-        <!-- <NuxtLink
+        <NuxtLink
           href="/monthly-leaderboard-moon"
           class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Moon
           <img class="size-5" src="../assets/img/moon.png" />
-        </NuxtLink> -->
+        </NuxtLink>
 
         <NuxtLink
           href="/monthly-leaderboard-diamond"
