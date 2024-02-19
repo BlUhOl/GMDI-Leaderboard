@@ -44,7 +44,7 @@ const calculateWidth = (value) => {
         class="text-5xl text-primary-400 font-bold flex flex-wrap items-center gap-3"
       >
         Creator Point
-        <img class="size-10" src="../assets/img/cp.png" />
+        <img class="size-10" src="https://www.dropbox.com/scl/fi/0pa2dylqk2z9eqwh63i9o/cp.png?rlkey=ctpboot3o6n6jdfmhbvjm1u30&dl=1" />
       </h2>
       <p class="text-primary-100 text-xl my-2">
         Top players with the most Creator Points weekly
@@ -148,7 +148,7 @@ const calculateWidth = (value) => {
               class="text-center w-full text-sm md:text-lg flex flex-row justify-center items-center gap-2"
             >
               +{{col[2]}}
-              <img class="size-4 md:size-6" src="../assets/img/cp.png" />
+              <img class="size-4 md:size-6" src="https://www.dropbox.com/scl/fi/0pa2dylqk2z9eqwh63i9o/cp.png?rlkey=ctpboot3o6n6jdfmhbvjm1u30&dl=1" />
             </td>
           </tr>
         </tbody>

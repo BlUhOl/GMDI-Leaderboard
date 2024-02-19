@@ -44,7 +44,10 @@ const calculateWidth = (value) => {
         class="text-5xl text-primary-400 font-bold flex flex-wrap items-center gap-3"
       >
         Star
-        <img class="size-10" src="../assets/img/star.png" />
+        <img
+          class="size-10"
+          src="https://www.dropbox.com/scl/fi/haeqlpvkg2b1wpk7nwj3u/star.png?rlkey=j6fiwsc36p9545xs6seqxs0v7&dl=1"
+        />
       </h2>
       <p class="text-primary-100 text-xl my-2">
         Top 25 players with the most Stars Yearly
@@ -60,16 +63,16 @@ const calculateWidth = (value) => {
     </div>
 
     <div class="overflow-x-auto grid grid-cols-1 2xl:grid-cols-2 gap-2">
-
-      <div class="w-full grid 2xl:hidden h-min collapse rounded-none collapse-arrow bg-background-800/50">
-        <input type="checkbox" /> 
+      <div
+        class="w-full grid 2xl:hidden h-min collapse rounded-none collapse-arrow bg-background-800/50"
+      >
+        <input type="checkbox" />
 
         <h2
           class="collapse-title text-xl font-medium py-4 px-4 text-white bg-gradient-to-b from-primary-700 to-primary-600"
         >
           Overall graph:
         </h2>
-        
 
         <div class="flex flex-row collapse-content p-2 gap-2">
           <div class="w-max border-r-2 pr-3 border-primary-500/50">
@@ -89,10 +92,9 @@ const calculateWidth = (value) => {
               :style="{ width: calculateWidth(col[2]) }"
               class="odd:bg-primary-600 text-xs text-green-200 bg-primary-700 text-right px-2 mb-1 hover:bg-primary-200 hover:text-primary-950 select-none rounded-md"
             >
-              +{{col[2]}}
+              +{{ col[2] }}
             </h6>
           </div>
-
         </div>
       </div>
 
@@ -147,22 +149,26 @@ const calculateWidth = (value) => {
             <td
               class="text-center w-full text-sm md:text-lg flex flex-row justify-center items-center gap-2"
             >
-              +{{col[2]}}
-              <img class="size-4 md:size-6" src="../assets/img/star.png" />
+              +{{ col[2] }}
+              <img
+                class="size-4 md:size-6"
+                src="https://www.dropbox.com/scl/fi/haeqlpvkg2b1wpk7nwj3u/star.png?rlkey=j6fiwsc36p9545xs6seqxs0v7&dl=1"
+              />
             </td>
           </tr>
         </tbody>
       </table>
 
-      <div class="w-full hidden 2xl:grid h-min collapse rounded-none collapse-arrow bg-background-800/50">
-        <input type="checkbox" checked /> 
+      <div
+        class="w-full hidden 2xl:grid h-min collapse rounded-none collapse-arrow bg-background-800/50"
+      >
+        <input type="checkbox" checked />
 
         <h2
           class="collapse-title text-xl font-medium py-4 px-4 text-white bg-gradient-to-b from-primary-700 to-primary-600"
         >
           Overall graph:
         </h2>
-        
 
         <div class="flex flex-row collapse-content p-2 gap-2">
           <div class="w-max border-r-2 pr-3 border-primary-500/50">
@@ -185,10 +191,8 @@ const calculateWidth = (value) => {
               +{{ col[2] }}
             </h6>
           </div>
-
         </div>
       </div>
     </div>
-
   </div>
 </template>

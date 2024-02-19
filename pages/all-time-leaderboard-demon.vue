@@ -32,7 +32,7 @@ const openLinkInNewTab = (link) => {
       </h2>
       <h2 class="text-5xl text-primary-400 font-bold flex flex-wrap items-center gap-3">
         Demon
-        <img class="size-10" src="../assets/img/demon.png" />
+        <img class="size-10" src="https://www.dropbox.com/scl/fi/tx79o6y04uph7spyz3rkd/demon.png?rlkey=hjtyc0tqzg28ypdpjd6z2czkk&dl=1" />
       </h2>
       <p class="text-primary-100 text-xl my-2">
         Top 25 players with the most Demons all time
@@ -167,7 +167,7 @@ const openLinkInNewTab = (link) => {
               class="text-center w-full text-sm md:text-lg flex flex-row justify-center items-center gap-2"
             >
               {{ col[3] }}
-              <img class="size-4 md:size-6" src="../assets/img/demon.png" />
+              <img class="size-4 md:size-6" src="https://www.dropbox.com/scl/fi/tx79o6y04uph7spyz3rkd/demon.png?rlkey=hjtyc0tqzg28ypdpjd6z2czkk&dl=1" />
             </td>
           </tr>
         </tbody>

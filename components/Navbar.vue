@@ -35,7 +35,7 @@
               href="/all-time-leaderboard-star"
               class="flex flex-row items-center gap-1 text-base"
               >Star
-              <img class="size-5" src="../assets/img/star.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/haeqlpvkg2b1wpk7nwj3u/star.png?rlkey=j6fiwsc36p9545xs6seqxs0v7&dl=1" />
             </NuxtLink>
           </li>
 
@@ -44,7 +44,7 @@
               href="/all-time-leaderboard-moon"
               class="flex flex-row items-center gap-1 text-base"
               >Moon
-              <img class="size-5" src="../assets/img/moon.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/63vw5awjmurzn9mdnaiwr/moon.png?rlkey=qebweeao6php82nzvnzv2vn10&dl=1" />
             </NuxtLink>
           </li>
 
@@ -53,7 +53,7 @@
               href="/all-time-leaderboard-diamond"
               class="flex flex-row items-center gap-1 text-base"
               >Diamond
-              <img class="size-5" src="../assets/img/diamond.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/xj92rjllbyhx9ndu32jv0/diamond.png?rlkey=jcc5z84lhmsl1oooglihwcx46&dl=1" />
             </NuxtLink>
           </li>
 
@@ -62,7 +62,7 @@
               href="/all-time-leaderboard-usercoin"
               class="flex flex-row items-center gap-1 text-base"
               >User Coin
-              <img class="size-5" src="../assets/img/silvercoin.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/8ry1a04thr00ddw0ohg8n/silvercoin.png?rlkey=zgkvupj1hqwvnxjhd67uo8lwj&dl=1" />
             </NuxtLink>
           </li>
 
@@ -71,7 +71,7 @@
               href="/all-time-leaderboard-demon"
               class="flex flex-row items-center gap-1 text-base"
               >Demon
-              <img class="size-5" src="../assets/img/demon.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/tx79o6y04uph7spyz3rkd/demon.png?rlkey=hjtyc0tqzg28ypdpjd6z2czkk&dl=1" />
             </NuxtLink>
           </li>
 
@@ -80,7 +80,7 @@
               href="/all-time-leaderboard-creatorpoint"
               class="flex flex-row items-center gap-1 text-base"
               >Creator Point
-              <img class="size-5" src="../assets/img/cp.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/0pa2dylqk2z9eqwh63i9o/cp.png?rlkey=ctpboot3o6n6jdfmhbvjm1u30&dl=1" />
             </NuxtLink>
           </li>
         </ul>
@@ -111,7 +111,7 @@
               href="/weekly-leaderboard-star"
               class="flex flex-row items-center gap-1 text-base"
               >Star
-              <img class="size-5" src="../assets/img/star.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/haeqlpvkg2b1wpk7nwj3u/star.png?rlkey=j6fiwsc36p9545xs6seqxs0v7&dl=1" />
             </NuxtLink>
           </li>
 
@@ -120,7 +120,7 @@
               href="/weekly-leaderboard-moon"
               class="flex flex-row items-center gap-1 text-base"
               >Moon
-              <img class="size-5" src="../assets/img/moon.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/63vw5awjmurzn9mdnaiwr/moon.png?rlkey=qebweeao6php82nzvnzv2vn10&dl=1" />
             </NuxtLink>
           </li>
 
@@ -129,7 +129,7 @@
               href="/weekly-leaderboard-diamond"
               class="flex flex-row items-center gap-1 text-base"
               >Diamond
-              <img class="size-5" src="../assets/img/diamond.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/xj92rjllbyhx9ndu32jv0/diamond.png?rlkey=jcc5z84lhmsl1oooglihwcx46&dl=1" />
             </NuxtLink>
           </li>
 
@@ -138,7 +138,7 @@
               href="/weekly-leaderboard-usercoin"
               class="flex flex-row items-center gap-1 text-base"
               >User Coin
-              <img class="size-5" src="../assets/img/silvercoin.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/8ry1a04thr00ddw0ohg8n/silvercoin.png?rlkey=zgkvupj1hqwvnxjhd67uo8lwj&dl=1" />
             </NuxtLink>
           </li>
 
@@ -147,7 +147,7 @@
               href="/weekly-leaderboard-demon"
               class="flex flex-row items-center gap-1 text-base"
               >Demon
-              <img class="size-5" src="../assets/img/demon.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/tx79o6y04uph7spyz3rkd/demon.png?rlkey=hjtyc0tqzg28ypdpjd6z2czkk&dl=1" />
             </NuxtLink>
           </li>
 
@@ -156,7 +156,7 @@
               href="/weekly-leaderboard-creatorpoint"
               class="flex flex-row items-center gap-1 text-base"
               >Creator Point
-              <img class="size-5" src="../assets/img/cp.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/0pa2dylqk2z9eqwh63i9o/cp.png?rlkey=ctpboot3o6n6jdfmhbvjm1u30&dl=1" />
             </NuxtLink>
           </li>
         </ul>
@@ -187,14 +187,14 @@
               href="/monthly-leaderboard-star"
               class="flex flex-row items-center gap-1 text-base"
               >Star
-              <img class="size-5" src="../assets/img/star.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/haeqlpvkg2b1wpk7nwj3u/star.png?rlkey=j6fiwsc36p9545xs6seqxs0v7&dl=1" />
             </NuxtLink>
           </li>
 
           <li>
             <NuxtLink href="/monthly-leaderboard-moon" class="flex flex-row items-center gap-1 text-base"
               >Moon
-              <img class="size-5" src="../assets/img/moon.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/63vw5awjmurzn9mdnaiwr/moon.png?rlkey=qebweeao6php82nzvnzv2vn10&dl=1" />
             </NuxtLink>
           </li>
 
@@ -203,7 +203,7 @@
               href="/monthly-leaderboard-diamond"
               class="flex flex-row items-center gap-1 text-base"
               >Diamond
-              <img class="size-5" src="../assets/img/diamond.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/xj92rjllbyhx9ndu32jv0/diamond.png?rlkey=jcc5z84lhmsl1oooglihwcx46&dl=1" />
             </NuxtLink>
           </li>
 
@@ -212,7 +212,7 @@
               href="/monthly-leaderboard-usercoin"
               class="flex flex-row items-center gap-1 text-base"
               >User Coin
-              <img class="size-5" src="../assets/img/silvercoin.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/8ry1a04thr00ddw0ohg8n/silvercoin.png?rlkey=zgkvupj1hqwvnxjhd67uo8lwj&dl=1" />
             </NuxtLink>
           </li>
 
@@ -221,7 +221,7 @@
               href="/monthly-leaderboard-demon"
               class="flex flex-row items-center gap-1 text-base"
               >Demon
-              <img class="size-5" src="../assets/img/demon.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/tx79o6y04uph7spyz3rkd/demon.png?rlkey=hjtyc0tqzg28ypdpjd6z2czkk&dl=1" />
             </NuxtLink>
           </li>
 
@@ -230,7 +230,7 @@
               href="/monthly-leaderboard-creatorpoint"
               class="flex flex-row items-center gap-1 text-base"
               >Creator Point
-              <img class="size-5" src="../assets/img/cp.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/0pa2dylqk2z9eqwh63i9o/cp.png?rlkey=ctpboot3o6n6jdfmhbvjm1u30&dl=1" />
             </NuxtLink>
           </li>
         </ul>
@@ -261,14 +261,14 @@
               href="/yearly-leaderboard-star"
               class="flex flex-row items-center gap-1 text-base"
               >Star
-              <img class="size-5" src="../assets/img/star.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/haeqlpvkg2b1wpk7nwj3u/star.png?rlkey=j6fiwsc36p9545xs6seqxs0v7&dl=1" />
             </NuxtLink>
           </li>
 
           <!-- <li>
             <NuxtLink href="/yearly-leaderboard-moon" class="flex flex-row items-center gap-1 text-base"
               >Moon
-              <img class="size-5" src="../assets/img/moon.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/63vw5awjmurzn9mdnaiwr/moon.png?rlkey=qebweeao6php82nzvnzv2vn10&dl=1" />
             </NuxtLink>
           </li> -->
 
@@ -277,7 +277,7 @@
               href="/yearly-leaderboard-diamond"
               class="flex flex-row items-center gap-1 text-base"
               >Diamond
-              <img class="size-5" src="../assets/img/diamond.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/xj92rjllbyhx9ndu32jv0/diamond.png?rlkey=jcc5z84lhmsl1oooglihwcx46&dl=1" />
             </NuxtLink>
           </li>
 
@@ -286,7 +286,7 @@
               href="/yearly-leaderboard-usercoin"
               class="flex flex-row items-center gap-1 text-base"
               >User Coin
-              <img class="size-5" src="../assets/img/silvercoin.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/8ry1a04thr00ddw0ohg8n/silvercoin.png?rlkey=zgkvupj1hqwvnxjhd67uo8lwj&dl=1" />
             </NuxtLink>
           </li>
 
@@ -295,7 +295,7 @@
               href="/yearly-leaderboard-demon"
               class="flex flex-row items-center gap-1 text-base"
               >Demon
-              <img class="size-5" src="../assets/img/demon.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/tx79o6y04uph7spyz3rkd/demon.png?rlkey=hjtyc0tqzg28ypdpjd6z2czkk&dl=1" />
             </NuxtLink>
           </li>
 
@@ -304,7 +304,7 @@
               href="/yearly-leaderboard-creatorpoint"
               class="flex flex-row items-center gap-1 text-base"
               >Creator Point
-              <img class="size-5" src="../assets/img/cp.png" />
+              <img class="size-5" src="https://www.dropbox.com/scl/fi/0pa2dylqk2z9eqwh63i9o/cp.png?rlkey=ctpboot3o6n6jdfmhbvjm1u30&dl=1" />
             </NuxtLink>
           </li>
         </ul>

@@ -44,7 +44,7 @@ const calculateWidth = (value) => {
         class="text-5xl text-primary-400 font-bold flex flex-wrap items-center gap-3"
       >
         Diamond
-        <img class="size-10" src="../assets/img/diamond.png" />
+        <img class="size-10" src="https://www.dropbox.com/scl/fi/xj92rjllbyhx9ndu32jv0/diamond.png?rlkey=jcc5z84lhmsl1oooglihwcx46&dl=1" />
       </h2>
       <p class="text-primary-100 text-xl my-2">
         Top players with the most Diamonds weekly
@@ -148,7 +148,7 @@ const calculateWidth = (value) => {
               class="text-center w-full text-sm md:text-lg flex flex-row justify-center items-center gap-2"
             >
               +{{col[2]}}
-              <img class="size-4 md:size-6" src="../assets/img/diamond.png" />
+              <img class="size-4 md:size-6" src="https://www.dropbox.com/scl/fi/xj92rjllbyhx9ndu32jv0/diamond.png?rlkey=jcc5z84lhmsl1oooglihwcx46&dl=1" />
             </td>
           </tr>
         </tbody>

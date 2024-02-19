@@ -8,7 +8,7 @@
     <div class="p-4 bg-[#576aec] w-full rounded-t-lg">
       <div class="flex flex-row items-center justify-between gap-12">
         <div class="flex flex-row items-center gap-5">
-          <img class="size-12 rounded-full" src="../assets/img/gmdidcpfp.png" />
+          <img class="size-12 rounded-full" src="https://www.dropbox.com/scl/fi/12ymsfxf1t8k7qcozgo77/gmdidcpfp.png?rlkey=y3ofty5uexoxfxjkwghk2vi6t&dl=1" />
           <div>
             <h3 class="text-white text-xl flex flex-row md:items-center gap-2 fill-white">
               <svg

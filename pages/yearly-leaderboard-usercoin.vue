@@ -44,7 +44,7 @@ const calculateWidth = (value) => {
         class="text-5xl text-primary-400 font-bold flex flex-wrap items-center gap-3"
       >
         User Coin
-        <img class="size-10" src="../assets/img/silvercoin.png" />
+        <img class="size-10" src="https://www.dropbox.com/scl/fi/8ry1a04thr00ddw0ohg8n/silvercoin.png?rlkey=zgkvupj1hqwvnxjhd67uo8lwj&dl=1" />
       </h2>
       <p class="text-primary-100 text-xl my-2">
         Top 25 players with the most User Coins Yearly
@@ -148,7 +148,7 @@ const calculateWidth = (value) => {
               class="text-center w-full text-sm md:text-lg flex flex-row justify-center items-center gap-2"
             >
               +{{col[2]}}
-              <img class="size-4 md:size-6" src="../assets/img/silvercoin.png" />
+              <img class="size-4 md:size-6" src="https://www.dropbox.com/scl/fi/8ry1a04thr00ddw0ohg8n/silvercoin.png?rlkey=zgkvupj1hqwvnxjhd67uo8lwj&dl=1" />
             </td>
           </tr>
         </tbody>
