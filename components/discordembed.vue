@@ -27,7 +27,7 @@
         <div>
           <NuxtLink
             class="btn"
-            href="https://discord.gg/JaPQzFk"
+            href="https://discord.gg/eN3KgScqBk"
             target="_blank"
             >Join
           </NuxtLink>
