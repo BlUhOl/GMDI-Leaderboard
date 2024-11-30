@@ -340,7 +340,7 @@
               managed by
               <NuxtLink
                 class="font-medium underline decoration-dashed hover:decoration-solid"
-                href="mailto:abdiharyadi.ah@gmail.com"
+                href="https://www.instagram.com/abdiharyadi"
                 target="_blank"
                 >Abdi Haryadi</NuxtLink
               >

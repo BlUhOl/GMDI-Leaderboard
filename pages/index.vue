@@ -39,7 +39,7 @@
         managed by
         <NuxtLink
           class="font-medium underline decoration-dashed hover:decoration-solid"
-          href="mailto:abdiharyadi.ah@gmail.com"
+          href="https://www.instagram.com/abdiharyadi"
           target="_blank"
           >Abdi Haryadi</NuxtLink
         >
@@ -278,8 +278,7 @@
         class="font-medium underline decoration-dashed hover:decoration-solid"
         href="/#discord"
         >Discord GMDI</NuxtLink
-      >
-      atau bertanya langsung ke Abdi menggunakan email
+      >.
     </p>
   </div>
 
