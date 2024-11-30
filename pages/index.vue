@@ -52,7 +52,7 @@
       <h3
         class="text-xl col-span-2 mb-1 lg:col-span-3 font-bold text-white w-full text-center shadow-lg p-1 bg-amber-700 rounded-lg"
       >
-        All-time Leaderboard
+        All-Time Leaderboard
       </h3>
 
         <NuxtLink
@@ -260,18 +260,18 @@
     class="bg-primary-500/80 w-full py-8 px-2 xl:px-72 text-lg text-primary-100"
   >
     <p>
-      Situs web ini mengambil data dari google sheet menggunakan google api dan
+      Situs web ini mengambil data dari Google Sheets dengan Google API dan
       menampilkannya. Saya (BlUhOl) tidak memiliki akses ke data tersebut.
     </p>
     <br />
     <p>
-      Jika Anda ingin meminta/menambahkan nama Anda ke leaderboard silakan baca
+      Jika Anda ingin meminta/menambahkan nama Anda ke Leaderboard, silakan baca
       informasi di
       <NuxtLink
         class="font-medium underline decoration-dashed hover:decoration-solid"
         href="https://docs.google.com/spreadsheets/d/1OiSgtZ_P0fojAVyZErE9na5f6Z5eR-Hu6ICv4-6k85o"
         target="_blank"
-        >google sheets</NuxtLink
+        >Google Sheets</NuxtLink
       >
       atau bergabung dengan server
       <NuxtLink
@@ -315,13 +315,13 @@
     class="w-full px-2 xl:px-72 py-10 flex flex-col justify-center items-center bg-black/50"
   >
     <p>
-      Want to Contribute this website? visit
+      Want to contribute to this website? Visit the
       <NuxtLink
         class="underline decoration-dashed hover:decoration-solid"
         href="https://github.com/BlUhOl/GMDI-Leaderboard"
         target="_blank"
         >Github repository</NuxtLink
-      >
+      >.
     </p>
   </div>
 </template>
