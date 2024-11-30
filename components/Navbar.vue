@@ -12,7 +12,7 @@
     <div class="hidden sm:block">
       <div class="dropdown">
         <div tabindex="1" role="button" class="btn btn-ghost text-white">
-          All Time
+          All-Time
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -340,7 +340,7 @@
               managed by
               <NuxtLink
                 class="font-medium underline decoration-dashed hover:decoration-solid"
-                href="mailto:abdiharyadi.ah@gmail.com"
+                href="https://www.instagram.com/abdiharyadi"
                 target="_blank"
                 >Abdi Haryadi</NuxtLink
               >
@@ -353,13 +353,13 @@
             <h2>Built on top Nuxt, with Tailwind CSS and DaisyUI library</h2>
             <br />
             <p>
-              Want to Contribute this website? visit
+              Want to contribute to this website? Visit the
               <NuxtLink
                 class="underline decoration-dashed hover:decoration-solid"
                 href="https://github.com/BlUhOl/GMDI-Leaderboard"
                 target="_blank"
                 >Github repository</NuxtLink
-              >
+              >.
             </p>
           </div>
         </div>
