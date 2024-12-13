@@ -294,7 +294,7 @@
         <h3 class="text-4xl text-sky-300 font-bold">Facebook</h3>
         <img
           class="w-max h-max my-4 rounded-lg border-2 border-background-700 shadow-xl"
-          src="https://www.dropbox.com/scl/fi/p2x4f6510nb7k7p0986yo/gmdifbimg.png?rlkey=s2lhehucgyc163ogaw2bpd634&dl=1"
+          src="https://www.dropbox.com/scl/fi/itij66ehpdpd23kslryh2/gmdifbimgnew.png?rlkey=f2ho4476jaiixk44q7drjyufk&dl=1"
         />
         <NuxtLink
           class="btn"
