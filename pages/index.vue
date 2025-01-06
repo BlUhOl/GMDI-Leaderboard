@@ -217,12 +217,12 @@
           <img class="size-5" src="https://www.dropbox.com/scl/fi/haeqlpvkg2b1wpk7nwj3u/star.png?rlkey=j6fiwsc36p9545xs6seqxs0v7&dl=1" />
         </NuxtLink>
 
-        <!-- <NuxtLink
+        <NuxtLink
           href="/yearly-leaderboard-moon"
           class="flex flex-row items-center btn-ghost btn bg-primary-500/10 w-full gap-1 text-base"
           >Moon
           <img class="size-5" src="https://www.dropbox.com/scl/fi/63vw5awjmurzn9mdnaiwr/moon.png?rlkey=qebweeao6php82nzvnzv2vn10&dl=1" />
-        </NuxtLink> -->
+        </NuxtLink>
 
         <NuxtLink
           href="/yearly-leaderboard-diamond"
@@ -257,7 +257,7 @@
   </div>
 
   <div
-    class="bg-primary-500/80 w-full py-8 px-2 xl:px-72 text-lg text-primary-100"
+    class="bg-primary-600/80 w-full py-8 px-2 xl:px-72 text-lg text-primary-100"
   >
     <p>
       Situs web ini mengambil data dari Google Sheets dengan Google API dan
@@ -283,7 +283,7 @@
   </div>
 
   <div
-    class="w-full h-full px-2 xl:px-72 py-16 bg-gradient-to-b from-background-800/80 to-background-700/80"
+    class="w-full h-full px-2 xl:px-72 py-16 bg-gradient-to-b from-background-800 to-background-700"
   >
     <h2 class="text-6xl font-bold text-center w-full mb-12">
       Join Our Community
@@ -312,7 +312,7 @@
   </div>
 
   <div
-    class="w-full px-2 xl:px-72 py-10 flex flex-col justify-center items-center bg-black/50"
+    class="w-full px-2 xl:px-72 py-10 flex flex-col justify-center items-center bg-gray-900"
   >
     <p>
       Want to contribute to this website? Visit the
