@@ -16,7 +16,7 @@
     </h1>
 
     <div class="my-5 flex flex-col items-center justify-center">
-      <h2 class="flex flex-row items-center gap-2 text-xl">
+      <!-- <h2 class="flex flex-row items-center gap-2 text-xl">
         Website by
         <NuxtImg
           class="rounded-full size-8"
@@ -28,7 +28,7 @@
           target="_blank"
           >BlUhOl</NuxtLink
         >
-      </h2>
+      </h2> -->
       <h2 class="flex flex-row items-center gap-2 text-xl">
         <NuxtLink
           class="font-medium underline decoration-dashed hover:decoration-solid"
@@ -260,24 +260,22 @@
     class="bg-primary-600/80 w-full py-8 px-2 xl:px-72 text-lg text-primary-100"
   >
     <p>
-      Situs web ini mengambil data dari Google Sheets dengan Google API dan
-      menampilkannya. Saya (BlUhOl) tidak memiliki akses ke data tersebut.
+      This website retrieves data from Google Sheets using the Google API and displays it.
     </p>
     <br />
     <p>
-      Jika Anda ingin meminta/menambahkan nama Anda ke Leaderboard, silakan baca
-      informasi di
+      If you would like to request/add your name to the Leaderboard, please read the information in the
       <NuxtLink
         class="font-medium underline decoration-dashed hover:decoration-solid"
         href="https://docs.google.com/spreadsheets/d/1OiSgtZ_P0fojAVyZErE9na5f6Z5eR-Hu6ICv4-6k85o"
         target="_blank"
         >Google Sheets</NuxtLink
       >
-      atau bergabung dengan server
+      or join the
       <NuxtLink
         class="font-medium underline decoration-dashed hover:decoration-solid"
         href="/#discord"
-        >Discord GMDI</NuxtLink
+        >GMDI Discord server</NuxtLink
       >.
     </p>
   </div>
