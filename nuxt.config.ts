@@ -1,5 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  routeRules: {    
+    '/:path/**': {      
+      redirect: {        
+        to: 'https://gmdilb.pages.dev/',        
+        statusCode: 301       
+      }    
+    }  
+  },
   devtools: { enabled: true },
   hub: {
     cache: true
