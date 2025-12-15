@@ -12,7 +12,7 @@ let WEEKLY_DIAMOND_range = "PPM - Diamond!B5:D56";
 let WEEKLY_UC_range = "PPM - User Coin!B5:D56";
 let WEEKLY_DEMON_range = "PPM - Demon!B5:D56";
 let WEEKLY_CP_range = "PPM - CP!B5:D56";
-let WEEKLY_version_date = "Beranda!B14"
+let WEEKLY_version_date = "Beranda!B15"
 
 let MONTHLY_STAR_range = "PPB - Star!B5:D56";
 let MONTHLY_MOON_range = "PPB - Moon!B5:D56";
@@ -20,7 +20,7 @@ let MONTHLY_DIAMOND_range = "PPB - Diamond!B5:D56";
 let MONTHLY_UC_range = "PPB - User Coin!B5:D56";
 let MONTHLY_DEMON_range = "PPB - Demon!B5:D56";
 let MONTHLY_CP_range = "PPB - CP!B5:D56";
-let MONTHLY_version_date = "Beranda!B23"
+let MONTHLY_version_date = "Beranda!B24"
 
 let YEARLY_STAR_range = "PPT - Star!B5:D56";
 let YEARLY_MOON_range = "PPT - Moon!B5:D56";
@@ -28,7 +28,7 @@ let YEARLY_DIAMOND_range = "PPT - Diamond!B5:D56";
 let YEARLY_UC_range = "PPT - User Coin!B5:D56";
 let YEARLY_DEMON_range = "PPT - Demon!B5:D56";
 let YEARLY_CP_range = "PPT - CP!B5:D56";
-let YEARLY_version_date = "Beranda!B32"
+let YEARLY_version_date = "Beranda!B33"
 
 
 const getVars = () => {
